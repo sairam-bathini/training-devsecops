@@ -1,0 +1,50 @@
+# Vulnerable Python dependencies for SCA testing
+# These packages have known security vulnerabilities
+
+# Vulnerable Flask version (CVE-2020-25540 and others)
+Flask==1.1.0
+
+# Vulnerable Werkzeug (used by Flask) with known vulnerabilities
+Werkzeug==0.15.0
+
+# Vulnerable Jinja2 with known vulnerabilities
+Jinja2==2.11.0
+
+# Vulnerable requests library
+requests==2.20.0
+
+# Vulnerable paramiko (SSH library) with known CVEs
+paramiko==2.6.0
+
+# Vulnerable PyYAML with unsafe load vulnerability
+PyYAML==3.13
+
+# Vulnerable PIL (Pillow) with known vulnerabilities
+Pillow==6.2.0
+
+# Vulnerable cryptography library
+cryptography==2.8
+
+# Vulnerable SQLAlchemy
+SQLAlchemy==1.2.19
+
+# Vulnerable Django
+Django==2.2.0
+
+# Vulnerable pycrypto (known vulnerabilities, should use pycryptodome)
+pycrypto==2.6.1
+
+# Vulnerable lxml with XXE vulnerabilities
+lxml==4.4.0
+
+# Vulnerable Django REST Framework
+djangorestframework==3.8.2
+
+# Vulnerable pickle alternative - insecure serialization
+dill==0.3.0
+
+# Vulnerable urllib3
+urllib3==1.24.0
+
+# Vulnerable mock library
+mock==2.0.0
