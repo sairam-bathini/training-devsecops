@@ -23,13 +23,13 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>5.2.19.RELEASE</version> <!-- Known vulnerabilities -->
+            <version>6.1.14</version> <!-- Known vulnerabilities -->
         </dependency>
         
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>5.2.9.RELEASE</version> <!-- Known vulnerabilities -->
+            <version>5.2.15.RELEASE</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Vulnerable Log4j version (Log4Shell CVE-2021-44228) -->
@@ -50,21 +50,21 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.9.1</version> <!-- Known vulnerabilities -->
+            <version>2.9.9.2</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Vulnerable Apache Struts (RCE vulnerabilities) -->
         <dependency>
             <groupId>org.apache.struts</groupId>
             <artifactId>struts2-core</artifactId>
-            <version>2.3.15.3</version> <!-- Known vulnerabilities -->
+            <version>2.3.16.1</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Vulnerable Jetty -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
-            <version>9.2.27.v20190403</version> <!-- Known vulnerabilities -->
+            <version>9.2.28.v20190418</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Vulnerable Apache HttpClient -->
@@ -78,7 +78,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.42</version> <!-- Known vulnerabilities -->
+            <version>8.0.13</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Vulnerable JDOM -->
@@ -99,7 +99,7 @@
         <dependency>
             <groupId>com.thoughtworks.xstream</groupId>
             <artifactId>xstream</artifactId>
-            <version>1.4.9</version> <!-- Known vulnerabilities -->
+            <version>1.4.10</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Testing dependencies -->
