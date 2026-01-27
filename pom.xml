@@ -29,7 +29,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
-            <version>5.2.15.RELEASE</version> <!-- Known vulnerabilities -->
+            <version>5.3.39</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Vulnerable Log4j version (Log4Shell CVE-2021-44228) -->
