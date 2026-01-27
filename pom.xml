@@ -64,7 +64,7 @@
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
-            <version>9.2.28.v20190418</version> <!-- Known vulnerabilities -->
+            <version>9.4.58.v20250814</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Vulnerable Apache HttpClient -->
