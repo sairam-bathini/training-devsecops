@@ -50,7 +50,7 @@
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.9.2</version> <!-- Known vulnerabilities -->
+            <version>2.20.1</version> <!-- Known vulnerabilities -->
         </dependency>
 
         <!-- Vulnerable Apache Struts (RCE vulnerabilities) -->
