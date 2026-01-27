@@ -23,7 +23,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>6.1.14</version> <!-- Known vulnerabilities -->
+            <version>6.2.15</version> <!-- Known vulnerabilities -->
         </dependency>
         
         <dependency>
