@@ -23,7 +23,7 @@ PyYAML==3.13
 Pillow==6.2.0
 
 # Vulnerable cryptography library
-cryptography==2.8
+cryptography==46.0.5
 
 # Vulnerable SQLAlchemy
 SQLAlchemy==1.2.19
