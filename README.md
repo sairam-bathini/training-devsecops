@@ -1,4 +1,4 @@
-# Training DevSecOps - Vulnerable Code Repository
+# Training DevSecOps - Vulnerable Code Repository!
 
 A comprehensive repository containing intentionally vulnerable source code and dependencies for **SAST (Static Application Security Testing)** and **SCA (Software Composition Analysis)** training and testing.
 
